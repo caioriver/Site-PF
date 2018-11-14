@@ -1,0 +1,91 @@
+CREATE DATABASE mercado
+
+
+CREATE TABLE estoque 
+(
+    id int (10) NOT NULL AUTO_INCREMENT,
+    nome varchar (256) NOT NULL,
+    catg  varchar (256) NOT NULL,
+    dadd date NOT NULL,
+    img varchar(255) NOT NULL,
+    preco float NOT NULL,
+    PRIMARY KEY (id)
+
+);
+
+
+
+CREATE TABLE requisicoes 
+(
+    id int (10) NOT NULL AUTO_INCREMENT,
+    idprod int (10) NOT NULL,
+    iduser int (10) NOT NULL,
+    nomeuser varchar (256) NOT NULL,
+    nomeprod varchar (256) NOT NULL,
+    catg varchar (256) NOT NULL,
+    dadd date NOT NULL,
+    preco float NOT NULL,
+    quant float NOT NULL,
+    PRIMARY KEY (id)
+
+);
+
+
+
+CREATE TABLE usuarios
+(
+    id int (10) NOT NULL AUTO_INCREMENT,
+    nome varchar (256) NOT NULL,
+    mail  varchar (256) NOT NULL,
+    cpf  varchar (256) NOT NULL,
+    tel  varchar (256) NOT NULL,
+    endc  varchar (256) NOT NULL,
+    dadd date NOT NULL,
+    pass  varchar (256) NOT NULL,
+    debit float NOT NULL,
+    PRIMARY KEY (id)
+
+);
+
+
+
+CREATE TABLE admin (
+
+    id int (10) NOT NULL AUTO_INCREMENT,
+    nome varchar (256) NOT NULL,
+    mail  varchar (256) NOT NULL,
+    cpf  varchar (256) NOT NULL,
+    tel  varchar (256) NOT NULL,  dadd date NOT NULL,
+    pass  varchar (256) NOT NULL,PRIMARY KEY (id)
+);
+
+
+
+CREATE TABLE superadmin (
+
+    id int (10) NOT NULL AUTO_INCREMENT,
+    nome varchar (256) NOT NULL,
+    mail  varchar (256) NOT NULL,
+    pass  varchar (256) NOT NULL,PRIMARY KEY (id)
+);
+
+
+INSERT INTO superadmin (nome,mail,pass) VALUES ("Admin","mgomes@mgomes.com","858ddec0bb7ee29a83a6a1f8677c938bd842ae1a");
+
+mail = mgomes@mgomes.com
+ senha = mgomes10
+
+
+
+CREATE TABLE hist (
+    id int (10) NOT NULL AUTO_INCREMENT,
+    idprod int (10) NOT NULL,
+    iduser int (10) NOT NULL,
+    nomeuser varchar (256) NOT NULL,
+    nomeprod varchar (256) NOT NULL,
+    catg varchar (256) NOT NULL,
+    dadd date NOT NULL,
+    preco float NOT NULL,
+    quant float NOT NULL,
+    PRIMARY KEY (id)
+);

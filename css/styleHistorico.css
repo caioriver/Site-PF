@@ -1,0 +1,30 @@
+body{
+    color: white;
+}
+.table-bordered{
+    color: white;
+    border-radius: 10px;
+}
+table{
+    border-radius: 20px;
+}
+.historico{
+    margin-top: 15vh;
+    min-height: 90vh;
+}
+.btn-login{
+    width: auto;
+    background:  white;
+    color: #0971B2;
+    border-radius: 2vh;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    height: 5vh;
+    cursor: pointer;
+}
+.op-info, .op-info a{
+        color: white;
+        font-size: 24px;
+        margin-bottom: 5vh;
+}

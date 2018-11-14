@@ -1,0 +1,324 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    overflow-x: hidden;
+}
+/* Quem Somos */
+#quem-somos{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10vh;
+    background-color: #0971B2;
+    color: #fff;
+}
+.titulo{
+    font-size: 1.8rem;
+    text-align: right;
+    font-weight: bold; 
+}
+.imagem{
+    width: 70%;
+}
+/* Fim */
+
+/* Comentario */
+.texto{
+    font-size: 1rem;
+    color: #ffffff !important;
+    clear: both;
+    display: block;
+}
+
+/* Inicio de Depoimentos */
+.slider {
+    padding-left: 2.5vw;
+    padding-right: 2.5vw; 
+}
+.sbt-head {
+    color: #0971B2;
+    font-weight: bold !important;
+    text-align: center;
+    padding: 2vh;
+}
+
+.sbt-text {
+  margin-bottom: 25px;
+  line-height: 1.5;
+  color: #0971B2;
+  text-align: justify;
+}
+.sbt-title {
+  font-size: 1.2rem;
+  color: #0971B2;
+  float: right;
+  padding-right: 3.5vw;
+  padding-top: 3vw;
+  padding-bottom: 0;
+}
+
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+ 
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 50%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+/* Dots */
+  
+  /* Dots */
+.slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+.slick-dots
+{
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}
+/* Fim de Depoimentos */
+
+
+/*  Bootstrap Resets */
+.tab-content>.tab-pane {
+    background-color: #fff;
+    display: block;
+    visibility: hidden;
+}
+.tab-content>.tab-pane.active {
+    visibility: visible;
+}
+.tab-content{
+    position: relative;
+}
+.tab-pane:not(:first-child){
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.slick-slider .slick-slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Fim de Depoimentos */
+
+
+/* Mapa */
+
+#mapas{
+    padding-top: 5vh;
+    padding-bottom: 0px !important;
+    text-align: center;
+    color: #fff;
+}
+.titulo-mapa{
+    font-weight: bolder;
+    padding-bottom: 5vh;
+}
+.texto-mapa{
+    padding-top: 5vh; 
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom: 56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:80%;
+    width:100%;
+    position:absolute;
+}

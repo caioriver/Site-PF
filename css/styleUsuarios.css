@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #0971B2;
+    color: white; 
+    height: 100vh;
+}
+
+/* Usuários, Cadastro, Esqueceu a senha, Alterar Informações */
+    .caixaForm{
+        padding: 11vh 17vw 10.5vh 17vw ;
+    }
+    h1{
+        margin: 7vh 0;
+        padding: 0;
+        text-align: center;
+        font-size: 48px;
+    }
+    .caixaInput{
+        position: relative;
+        box-sizing: border-box;
+        margin-bottom: 8vh;
+    }
+    .entrada{
+        position: relative;
+        width: 50vw;
+        height: 7vh;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 24px;
+        border-bottom: 2px solid white;
+        align-content: center;
+        color: white;
+    }
+    .textoInput{
+        position: absolute;
+        line-height: 50px;
+        font-size: 24px;
+        transition: .5s;
+        opacity: .5;
+    }
+    .foco .textoInput{
+        transform: translateY(-30px);
+        font-size: 18px;
+        opacity: 1;
+        color: white;
+    }
+    .btn-login, .btn-senha{
+        width: 80%;
+        margin-left: 10%;
+        background:  white;
+        color: #0971B2;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        font-size: 24px;
+        height: 50px;
+        cursor: pointer;
+    }
+    .caixaInput input[type="submit"], .caixaInput input[type="button"]{
+        margin-top: 7vh;
+    }
+/* Fim Usuários, Cadastro, Esqueceu a senha, Alterar Informações */
+
+/* Apenas Esqueceu a Senha */
+    .btn-senha{
+        margin-bottom: -2vh;
+    }
+/* Fim de Esqueceu a senha */
+
+/* Apenas Cadastro */
+    .op-cadastro, .op-cadastro a{
+        width: 100%;
+        margin-top: -6vh;
+        color: white;
+    }
+/* Fim de Cadastro */
+
+/* Apenas Alterar Informações */
+    .op-info, .op-info a{
+        color: white;
+        font-size: 24px;
+        margin-bottom: 5vh;
+    }
+/* Fim de Alterar Informações */
+
+/* Media Width */
+@media(max-width: 575.99px){
+    .entrada{
+        width: 60vw;
+    }
+    .caixaInput button{
+        margin-top: -10vh;
+    }
+    h1{
+        font-size: 30px;
+    }
+    /* .caixaForm{
+        padding: 10vh 10vw 3vh 10vw ;
+    } */
+}
+
+@media(min-width: 576px) and (max-width: 767.99px){
+    .entrada{
+        width: 60vw;
+    }
+    .cadastro{
+        margin-left: -10vw;
+    }
+    h1{
+        font-size: 40px;
+    }
+    /* .caixaForm{
+        padding: 10vh 10vw 3vh 10vw ;
+    } */
+}
+
+@media(min-width: 768px) and (max-width: 991.99px){
+    .entrada{
+        width: 65vw;
+    }
+    .cadastro{
+        margin-left: -7vw;
+    }
+    /* .caixaForm{
+        padding: 10vh 10vw 3vh 10vw ;
+    } */
+}
+
+@media(min-width: 992px) and (max-width: 1199.9px){
+    .entrada{
+        width: 60vw;
+    }
+}
+
+/* Media Height */
+@media(max-height: 576px){
+    .caixaForm{
+        margin: 5%;
+    }
+    .entrada{
+        margin-top: 5%; 
+    }   
+}
+
+@media (min-height: 885px){
+    .caixaForm {
+        margin-bottom: 6vh;
+        padding: 11vh 21vw 10.5vh 21vw;
+    }
+}
+
+@media(min-width: 1200px){
+    .caixaForm {
+        padding-top: 11vh;
+        padding-left: 20vw;
+    }
+}
+
+@media(min-width: 1500px){
+    .caixaForm {
+        padding: 11vh;
+    }
+}
+
+@media(min-width: 2000px){
+    .caixaForm {
+        padding: 11vh;
+        padding: 11vh 3.65vw 10.5vh;
+    }
+}

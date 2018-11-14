@@ -1,0 +1,40 @@
+/* Slide */
+    .indicador, .indicador.active{
+        width: 32px;
+        height: 6px;
+        z-index: 100;
+        background-color: #FEFB00;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+    .indicador.active{
+        width: 33px;
+        height: 7px;
+        border: 1px solid black;
+    }
+    #slide01{
+        background-image: url(../img/slide01.jpeg);
+    }
+    #slide02{
+        background-image: url(../img/slide02.jpeg);
+    }
+    #slide03{
+        background-image: url(../img/slide03.jpeg);
+    }
+    #slide04{
+        background-image: url(../img/slide04.jpeg);
+    }
+    #slide05{
+        background-image: url(../img/slide05.jpeg);
+    }
+
+    .carousel-item {
+        height: 100vh;
+        min-height: 300px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+/* Fim do Slide */

@@ -1,0 +1,20 @@
+.cor-navbar{
+    color: white;
+    background-color: #0F4465;
+    z-index: 49;
+}
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: white;
+}
+.hvr-underline-from-center:before{
+    background: #FEFB00;   
+}
+.pg-atual{
+    border-bottom: 4px solid #FEFB00;
+    margin-top: -4px;
+}
