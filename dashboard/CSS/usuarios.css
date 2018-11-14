@@ -1,0 +1,61 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.col
+{
+    margin-left: 29vh;
+}
+
+.plus-card-img 
+{
+    /* width: 12vh; */
+    align-content: center;
+    align-self: center;
+}
+
+.border-lowblue 
+{
+    background-color: #D6D6D6;
+    border: 1.2vh solid #0971B2;
+    border-radius: 10px;
+    width: 25vh;
+    /* height: 38vh; */
+}
+
+.card-foot
+{ 
+    border: none;
+    padding-top: 3vh;
+    color: #0971B2;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 1.4rem;
+}
+
+.imagens{
+    padding: 3vh;
+}
+
+/* #cards
+{
+    padding-top: 14vh;
+} */
+
+@media (max-height: 494px){
+    .card-foot
+    { 
+        border: none;
+        padding-top: 0vh;
+        color: #0971B2;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 0rem;
+    }
+
+}

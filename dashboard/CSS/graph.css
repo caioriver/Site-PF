@@ -1,0 +1,43 @@
+
+.plus-card-img 
+{
+ width: 12vh;
+ align-content: center;
+ align-self: center;
+}
+
+.border-lowblue 
+{
+    top: 0vh;
+    background-color: #D6D6D6;
+    border: 1.2vh solid #0971B2;
+    border-radius: 1.4vh;
+    width: 30vh;
+    height: 38vh;
+}
+
+.card-foot
+{ 
+    border: none;
+    background-color: #D6D6D6;
+    padding-top: 5vh;
+    color: #0971B2;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 1rem;
+}
+
+#cards{
+    width: 99%;
+}
+
+element.style {
+    cursor: default;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    font-family: Roboto;
+    font-size: 1rem !important;
+    color: black !important;
+}

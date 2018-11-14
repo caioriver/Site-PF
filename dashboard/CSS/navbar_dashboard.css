@@ -1,0 +1,96 @@
+/* menu */
+a 
+{
+margin-top: 0.9vh;
+padding: 0.9vh;
+padding-top: 0.8vh !important;
+}
+
+
+.click
+{
+    background-color: #0F4465 !important;
+}
+
+.menu{
+position: fixed;
+width: 30vh;
+height: 100%;
+left: 0px;
+top: 0px;
+z-index: 100 ;
+background-color: black;
+}
+
+
+/* principal_menuiten */
+.navitens {
+position: absolute;
+width: 20vh;
+height: 3vh;
+top: 32.5vh;
+
+}
+
+
+.box {
+    position: relative;
+    }
+/* principal_bar */
+.item {
+position: relative;
+display: block;
+width: 30vh;
+height: 5vh;
+padding: 0 0 0 4vh;
+margin: 0 0 0 0;    
+top: 0;
+background: #0971B2;
+}
+
+a:hover {
+    font-style: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.item:hover {
+    background-color: #2F80ED;
+}
+
+.item_font {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 1.5em;
+color: #FFFFFF;
+
+}
+
+.iten_click {
+    background: #0F4465;
+}
+
+
+/* Group */
+.list {
+position: absolute;
+width: 35vh;
+height: 21vh;
+left: 0;
+top: 43vh;
+}
+
+/* user-icon-png-pnglogocom-1 */
+.icom
+{
+position: absolute;
+width: 25vh;
+margin-left: 2vh;
+top: 1.5vh;
+}
+
+.icom-img {
+    width: 25vh;
+}

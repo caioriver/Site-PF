@@ -1,0 +1,206 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.col
+{
+    margin-left: 0;
+}
+
+.plus-card-img 
+{
+    /* width: 12vh; */
+    align-content: center;
+    align-self: center;
+}
+
+.border-lowblue 
+{
+    background-color: #D6D6D6;
+    border: 1.2vh solid #0971B2;
+    border-radius: 10px;
+    width: 25vh;
+    /* height: 38vh; */
+}
+
+.card-foot
+{ 
+    border: none;
+    padding-top: 3vh;
+    color: #0971B2;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 1.4rem;
+}
+
+.imagens{
+    padding: 3vh;
+}
+
+/* #cards
+{
+    padding-top: 14vh;
+} */
+
+label 
+{
+    /* margin-top: 1vh; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 1rem;
+    width: 100%;
+    color: #000000;
+
+}
+
+button 
+{
+padding: 0;
+}
+table 
+{
+    text-align: center;
+    font-size: 1.3rem;
+}
+th
+{
+    border: solid 0.2vh;
+    background-color: #0971B2;
+    color: #ffffff;
+}
+
+td 
+{
+    border: solid 0.2vh;
+    background-color: #ffffff;
+}
+/* 
+.form-group 
+{
+    margin: 15vh 0 0 40vh;
+
+} */
+
+.table-control 
+{
+    border-radius: 4vh;
+    width: auto;
+    margin-top: 5vh;
+    width: 100% 
+}
+
+.table-id 
+{
+    width: 10vw;
+}
+.table-nome 
+{
+    width: 40vw;
+}
+.table-date
+{
+    width: 30vw;
+    margin: 0;
+}
+.table-preco
+{
+    width: 30vw;
+}
+.table-edit
+{
+    width: 50vw;
+    text-align: center;
+    
+}
+.table-edit-icon 
+{
+    text-align: initial;
+    color: #000000;
+    margin: 1vh;
+}
+.table-edit-icon:hover
+{
+/* background-color: #0971B2;
+ text-decoration: none; */
+ color: #000000;
+ text-decoration: underline;
+}
+.form-control 
+{
+    border-radius: 4vh;
+    font-size: 1.5rem;
+    margin-top: 1vh;
+}
+.imput-select 
+{
+    width: 20vw;
+   
+}
+.imput-serach 
+{
+    width: 20vw;
+    top: 1vh; 
+}
+.imput-order 
+{
+    width: 20vw;
+}
+
+.botao 
+{
+    border-radius: 6vh;
+    font-size: 1rem;
+    height: 6vh;
+    background-color: #0971B2;
+    padding: 0vh 1vw;
+    margin: 4vh 0vh 0 0;
+    width: 60%;
+}
+
+@media(max-width: 768px){
+    .botao{
+        padding: 0;
+        width: 100%;
+    }
+    /* .form-group 
+    {
+        margin: 20vh 3vw 0 10vw;
+    } */
+        /* .table-control 
+    {
+        width: 80vw;
+        margin: 5vh 10vw 0 10vw; 
+    } */
+
+}
+@media(max-width: 576px){
+    /* .form-group 
+    {
+        margin: 20vh 3vw 0 10vw;
+    } */
+    .container{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+@media (max-height: 494px){
+    .card-foot
+    { 
+        border: none;
+        padding-top: 0vh;
+        color: #0971B2;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 0rem;
+    }
+
+}

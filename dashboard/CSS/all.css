@@ -1,0 +1,52 @@
+html 
+{
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #D6D6D6;
+}
+h1 {
+    font-size: 5vh;
+}
+
+.title {
+    color: #0F4465;
+    /* top: 8vh;
+    font-size: 0.8vh;
+    position: absolute;
+    margin-left: 50%; */
+}
+
+.form-control 
+{
+    font-size: 4vh;
+}
+
+.configImagem{
+    max-width: 20rem;
+    max-height: 295.43px;
+}
+
+@media (min-height: 1250px){
+    .configImagem {
+        max-width: 285px;
+        max-height: 395.43px;
+    }
+}
+
+@media (max-height: 900px){
+
+    .configImagem {
+        max-width: 20rem;
+        max-height: 257.06px;
+    }
+}
+
+@media (max-height: 415px){
+
+    .border-lowblue {
+        width: 50vh !important;
+        /* height: 38vh; */
+    }
+}
